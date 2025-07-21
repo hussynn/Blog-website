@@ -1,0 +1,117 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+}
+ul{
+    list-style: none;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    background-color: #fff;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgb(0, 0, 0,0.2);
+    border-radius: 10px;
+
+}
+.container_image img {
+   width: 400px;
+   height: 300px;
+   border-radius: 20px;
+}
+.container_text{
+    font-size: 40px;
+    font-weight: bold;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0,0.2);
+    padding: 30px;
+    justify-content: center;
+
+}
+.container2_image img{
+    width: 450px;
+    height: 300px;
+}
+.container3{
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px;
+}
+.image_subcontainer3 img{
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+ .image_subcontainer3 {background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    height: 400px;
+ }
+ .container4{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+ }
+ .container4_image img{
+    width: 600px;
+    height: 450px;
+ }
+ .container4_text h3{
+    font-size: 80px ;
+    font-weight: bold;
+ }
+ .container4_text p{
+    font-size: 30px;
+ }
+ .foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+ }
+ .foot ul{
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+ }
+ .banner{
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+ }
+ .banner img{
+    width: 1300px;
+    height: 600px;
+    border-radius: 10px;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
